@@ -2,6 +2,10 @@
 
 The script help to detect the edge of the liquid interface for gravity-driven microfluidics platforms
 
+# Installation
+Please install the packages listed in requirements.txt
+
+# Image preprocessing
 Raw RBG images from the camera were preprocessed in Fiji:
 1. Organizing the images in time sequence (File - Import - Image Sequence)
 2. Cropping (Image - Crop)
@@ -9,7 +13,7 @@ Raw RBG images from the camera were preprocessed in Fiji:
 4. BW (Image - Type - 8-Bit)
 5. Save as *.tif (File - Save as - Tiff) 
  
- 
+# Image processing
 Script workflow:
 1. Open file (*.tif) - Open the time-sequence
 2. Scale (1 cm) - Set a scale (1cm on the image)
