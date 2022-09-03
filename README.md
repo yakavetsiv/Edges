@@ -4,6 +4,10 @@ The script help to detect the edge of the liquid interface for gravity-driven mi
 
 # Installation
 Please install the packages listed in requirements.txt
+```
+pip install -r requirements.txt
+```
+
 
 # Image preprocessing
 Raw RBG images from the camera were preprocessed in Fiji:
