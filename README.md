@@ -18,6 +18,11 @@ Raw RBG images from the camera were preprocessed in Fiji:
 5. Save as *.tif (File - Save as - Tiff) 
  
 # Image processing
+
+```
+python edges_main.py
+```
+
 Script workflow:
 1. Open file (*.tif) - Open the time-sequence
 2. Scale (1 cm) - Set a scale (1cm on the image)
